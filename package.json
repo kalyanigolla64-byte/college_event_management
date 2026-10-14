@@ -1,0 +1,14 @@
+{
+  "name": "kalyani-college-event-management",
+  "version": "1.0.0",
+  "description": "College event CRUD management website using Express and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "mysql2": "^3.14.1"
+  }
+}

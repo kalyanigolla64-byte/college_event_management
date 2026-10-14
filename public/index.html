@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalyani | College Event Management</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="page-home">
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-icon">✦</span> Kalyani <small>EVENT MANAGEMENT</small></a>
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a><a href="insert.html">Insert</a><a href="update.html">Update</a><a href="delete.html">Delete</a><a href="search.html">Search</a><a href="events.html">All Events</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">PLAN · ORGANIZE · CELEBRATE</p>
+        <h1>Every campus moment<br><span>starts with an event.</span></h1>
+        <p class="hero-copy">Manage college events in one place. Create events, keep details up to date, search your schedule, and remove old records with ease.</p>
+        <div class="hero-actions"><a class="btn btn-gold" href="insert.html">＋ Add an event</a><a class="btn btn-glass" href="#events">Explore events ↓</a></div>
+        <div class="hero-stats"><div><strong id="eventCount">—</strong><span>Events listed</span></div><div><strong>CRUD</strong><span>Simple management</span></div><div><strong>One place</strong><span>All your event details</span></div></div>
+      </div>
+    </section>
+    <section class="section" id="events">
+      <div class="section-heading"><div><p class="eyebrow">YOUR CAMPUS CALENDAR</p><h2>Upcoming events</h2></div><div><a class="text-link" href="search.html">Search events ↗</a> &nbsp; <a class="text-link" href="events.html">View all database records ↗</a></div></div>
+      <div id="notice" class="notice hidden"></div>
+      <div id="eventCards" class="event-grid"><div class="loading">Loading events…</div></div>
+    </section>
+    <section class="quick-actions">
+      <div><p class="eyebrow">QUICK ACTIONS</p><h2>Keep everything organized.</h2><p>Choose an operation to manage your database records.</p></div>
+      <div class="action-row"><a href="insert.html" class="action-card"><span>＋</span><b>Insert</b><small>Create a new event</small></a><a href="update.html" class="action-card"><span>↻</span><b>Update</b><small>Edit event details</small></a><a href="delete.html" class="action-card"><span>×</span><b>Delete</b><small>Remove an event</small></a><a href="search.html" class="action-card"><span>⌕</span><b>Search</b><small>Find a record</small></a><a href="events.html" class="action-card"><span>▤</span><b>All Events</b><small>View every record</small></a></div>
+    </section>
+  </main>
+  <footer>© 2026 Kalyani College Event Management <span>Made for campus moments ✦</span></footer>
+</body></html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Events | Kalyani College Event Management</title>
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body class="page-events">
+<header class="topbar">
+<a class="brand" href="index.html"><span class="brand-icon">✦</span> Kalyani <small>EVENT MANAGEMENT</small></a>
+<nav class="nav"><a href="index.html">Home</a><a href="insert.html">Insert</a><a href="update.html">Update</a><a href="delete.html">Delete</a><a href="search.html">Search</a><a class="active" href="events.html">All Events</a></nav>
+</header>
+<main class="section search-page events-page">
+<div class="section-heading"><div><p class="eyebrow">DATABASE RECORDS</p><h1>All college events</h1><p class="muted">This page displays every record currently stored in your college_event.events table. It refreshes from MySQL.</p></div></div>
+<div class="events-toolbar"><p id="allEventsSummary" class="muted">Loading records…</p><div><button id="refreshEvents" class="btn btn-primary" type="button">↻ Refresh list</button> <a href="insert.html" class="btn btn-gold">＋ Add event</a></div></div>
+<div id="allEventsTable" class="table-wrap"><div class="loading">Loading all events from database…</div></div>
+</main>
+<footer>© 2026 Kalyani College Event Management <span>All database records</span></footer>
+</body></html>
